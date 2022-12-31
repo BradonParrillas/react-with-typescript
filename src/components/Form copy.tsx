@@ -9,7 +9,7 @@ interface FormProps {
   onNewSub: (newSub: Sub) => void;
 }
 
-const INITIAL_STATE = {
+const INITIAL_STATE: Sub = {
   nick: "",
   subMonths: 0,
   avatar: "",
